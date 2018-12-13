@@ -1,3 +1,13 @@
-The goal of this script is to take a variant file input (from VEP), create (1) a bed file of variants, (2) a fasta file of a certain number of basepairs around each variant.
-The main script is the wrapper script. That then calls the other two python scripts. For your input, you will need a VEP annotated mutation file. Additionally, you will need to decide what annotation you would like to examine, how large around a window you would like to look, 
-and how far away from the transcription start site (TSS) you would like to examine. 
+The goal of these scripts is to take a variant file input (from VEP), create (1) a bed file of variants, (2) a fasta file of a certain number of basepairs around each variant. This script was used to put variants into transcription factor binding site software, such as the MEME Suite of tools (http://meme-suite.org/index.html). 
+
+
+Prerequisites:
+(1)Python-3.0
+(2)Bedtools
+
+
+Wrapper Script:
+    This will call the other python scripts and BEDTOOLs scripts.
+    Inputs: 
+      (1) VEP annotated mutation file
+      (2) Size of window you would like to examine around the variant (ie. if you want to look at 100bp on either side of the       SNV, size=100.
