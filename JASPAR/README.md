@@ -13,3 +13,6 @@ Wrapper Script:
     Inputs: 
       (1) VEP annotated mutation file
       (2) Size of window you would like to examine around the variant (ie. if you want to look at 100bp on either side of the       SNV, size=100.
+
+
+**Duplication script** if you are feeding into MEME. 
