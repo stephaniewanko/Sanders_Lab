@@ -1,0 +1,4 @@
+While the script is currently hard coded to look at upstream/downstream conserved variants, 
+it can easily be changed to subset down to other variables within the VEP annotation file 
+and create the plot (ie only variants that are in ChmmState15_E1_Brain). 
+
