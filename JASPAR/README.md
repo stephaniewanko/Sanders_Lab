@@ -4,6 +4,8 @@ The goal of these scripts is to take a variant file input (from VEP), create (1)
 Prerequisites:
 (1)Python-3.0
 (2)Bedtools
+(3)Human FASTA
+
 
 
 Wrapper Script:
