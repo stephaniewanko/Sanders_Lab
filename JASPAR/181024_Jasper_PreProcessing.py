@@ -1,7 +1,7 @@
 
 ##JASPER Pre Processing
 #author: Stephanie Wankowicz
-#date: 10/24/2-18
+#date: 10/24/2018
 
 import numpy as np
 import pandas as pd
